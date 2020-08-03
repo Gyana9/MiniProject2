@@ -1,0 +1,17 @@
+<div style="text-align:center">
+    <h2>Phone Book App</h2>
+    Contacts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn btn-primary">+Add Contact</button><br/><br/>
+    <input type="text" placeholder="Search for contact by last name" size="50"><br/><br/>
+    <label for="txtName">First Name </label>
+    <input type="text" [(ngModel)]="contact.contact_fname">
+    <label for="txtName">Last Name </label>
+    <input type="text" [(ngModel)]="contact.contact_lname">
+    <label for="txtNumber" >Phone No </label>
+    <input type="text" [(ngModel)]="contact. phone_number" ><br/>
+    <button class="btn btn-danger">Delete Contact</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn btn-danger">Update</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn btn-danger">Search Contact</button>
+</div>
+
+
